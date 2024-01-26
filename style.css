@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.holder {
+  border: 2px solid black;
+  border-radius: 10px;
+  border-width: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  height: 100px;
+  flex-basis: 420px;
+}
+#one {
+  background-color: yellowgreen;
+  order: -1;
+  padding: 67.5px;
+}
+#two {
+  background-color: aquamarine;
+  order: 3;
+  width: ;
+}
+#three {
+  background-color: teal;
+  order: 2;
+}
+
+#four {
+  background-color: pink;
+  order: 4;
+}
+#five {
+  background-color: cornflowerblue;
+  order: 1;
+  padding: 67.5px;
+}
