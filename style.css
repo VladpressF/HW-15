@@ -17,24 +17,29 @@
 #one {
   background-color: yellowgreen;
   order: -1;
-  padding: 67.5px;
+
+  flex-grow: 2;
 }
 #two {
   background-color: aquamarine;
   order: 3;
-  width: ;
+ flex-grow: 1;
+  
 }
 #three {
   background-color: teal;
   order: 2;
+ flex-grow: 1;
 }
 
 #four {
   background-color: pink;
   order: 4;
+   flex-grow: 1;
 }
 #five {
   background-color: cornflowerblue;
   order: 1;
-  padding: 67.5px;
+
+  flex-grow: 2;
 }
