@@ -3,6 +3,7 @@
   padding: 0;
 }
 .holder {
+  width: 600px;
   border: 2px solid black;
   border-radius: 10px;
   border-width: 5px;
@@ -12,34 +13,34 @@
 }
 .item {
   height: 100px;
-  flex-basis: 420px;
+  flex-basis: 180px;
 }
 #one {
   background-color: yellowgreen;
   order: -1;
-
-  flex-grow: 2;
+  flex-basis: 50%;
+  
 }
 #two {
   background-color: aquamarine;
   order: 3;
- flex-grow: 1;
+
   
 }
 #three {
   background-color: teal;
   order: 2;
- flex-grow: 1;
+
 }
 
 #four {
   background-color: pink;
   order: 4;
-   flex-grow: 1;
+   
 }
 #five {
   background-color: cornflowerblue;
   order: 1;
-
-  flex-grow: 2;
+  flex-basis: 50%;
+  
 }
