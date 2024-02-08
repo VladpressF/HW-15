@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+
+  
 }
 .holder {
   width: 600px;
@@ -24,6 +26,7 @@
 #two {
   background-color: aquamarine;
   order: 3;
+  flex-grow: 1;
 
   
 }
